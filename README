@@ -1,0 +1,35 @@
+These data have been generated using FORNAX.  See Wallace, Burrows,
+and Dolence (arxiv:1512.01338) for details.
+
+There are two types of files available. At this directory level are
+files that provide the values for the energy bins of each neutrino type.
+These are of the form *_energy_bins.txt. The first commented line of each 
+file has listed the minimum and maximum energies used in the energy groups,
+followed by two columns of data.  The first column is the energy group bin 
+center, and the second column is the energy group bin width.  There are 
+40 energy groups There are three of these files, one for each neutrino type:
+
+nue - electron neutrinos
+nua - anti-electron neutrinos
+nux - the "nu_x" neutrinos: muon and tau neutrions and their antiparticles
+
+The other file type that is available is in the next level of directories.  
+There are five of these directories, one for each progenitor model. Within 
+each directory are the spectra data for each neutrino type for the 
+corresponding progenitor model.  Each file corresponds to a specific time 
+in the simulation, as can be seen in the file names.
+
+'nu_spectra.t_002.dat'  is a file containing spectral data at a time 2 ms
+after the time of maximum energy luminosity.
+
+'nu_spectra.t_n029.dat'  is a file containing spectral data at a time 29 ms
+*before* the time of maximum energy luminosity.  The 'n' prior to the number 
+in the file name stands for 'negative'.
+
+There are three columns in each file, corresponding to data for each neutrino 
+type: electron, anti-electron, and "nu_x" neutrinos, in that order.  There 
+are 40 rows of data, corresponding to the 40 energy groups.  The data are 
+the energy luminosity (not flux) for the given neutrino type in the 
+given energy bin.
+
+*Note:  The units are in 10^51 erg/s*
