@@ -29,8 +29,7 @@ in the file name stands for 'negative'.
 There are three columns in each file, corresponding to data for each neutrino 
 type: electron, anti-electron, and "nu_x" neutrinos, in that order.  There 
 are 40 rows of data, corresponding to the 40 energy groups.  The data are 
-the energy luminosity (not flux) for the given neutrino type in the 
-given energy bin.
+the energy luminosity (not flux) spectral density for the given neutrino
+type in the given energy bin.  
 
-***Note: these data are integrated over each bin, i.e., they are not
-spectral densities.*** The units are in 10^51 erg/s
+*Note:  The units are 10^51 erg/s/MeV*
